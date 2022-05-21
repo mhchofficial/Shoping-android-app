@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_lay_from_bottom">90dp</dimen>
+    <dimen name="margin_btn_navigation_from_bottom">15dp</dimen>
+    <dimen name="margin_btn_navigation_from_start">15dp</dimen>
+    <dimen name="margin_btn_navigation_from_end">15dp</dimen>
+    <dimen name="btn_navigation_heght">60dp</dimen>
+    <dimen name="imageview_main_width">80dp</dimen>
+    <dimen name="imageview_main_height">80dp</dimen>
+    <dimen name="view_login_height">100dp</dimen>
+    <dimen name="btn_signup_width">140dp</dimen>
+    <dimen name="btn_signup_height">60dp</dimen>
+    <dimen name="btn_login_width">140dp</dimen>
+    <dimen name="btn_login_heiht">60dp</dimen>
+    <dimen name="framlayout_user_login_margintop">101dp</dimen>
+    <dimen name="imageview_post_height">250dp</dimen>
+    <dimen name="imageview_post_margin_start">60dp</dimen>
+    <dimen name="share_width">35dp</dimen>
+    <dimen name="fav_Size">35dp</dimen>
+    <dimen name="add_comment_btn_height">40dp</dimen>
+    <dimen name="recycler_post_width">280dp</dimen>
+    <dimen name="image_view_height">250dp</dimen>
+    <dimen name="btns_in_profile">205dp</dimen>
+    <dimen name="btn_in_profile_two">40dp</dimen>
+    <dimen name="edittext_insignup_height">40dp</dimen>
+</resources>

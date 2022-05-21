@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <data>
+        <variable
+            name="model"
+            type="com.example.test1.db.RoomModel_save" />
+    </data>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/parrent_card"
+        android:padding="15dp"
+        android:layout_margin="7dp"
+        app:cardCornerRadius="15dp"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:id="@+id/title"
+                android:text="@{model.title}"
+                android:padding="7dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:fontFamily="@font/montbold"/>
+            <TextView
+                android:text="@{model.body}"
+
+                android:maxLines="3"
+                android:id="@+id/body"
+                android:padding="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/montr"
+                />
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+</layout>

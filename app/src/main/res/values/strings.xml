@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Test1</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="send_to">send to</string>
+    <string name="manista_store">Manista Store</string>
+    <string name="you_dont_have_any_saved_post">you dont have any saved post</string>
+    <string name="signup">Signup</string>
+    <string name="add_comment">Add comment</string>
+    <string name="add_to_cart">add to cart</string>
+    <string name="add">add</string>
+    <string name="last_update">last update</string>
+    <string name="product">product</string>
+    <string name="password">password</string>
+    <string name="login">Login</string>
+    <string name="saved_post">Saved Post</string>
+    <string name="exit">Exit</string>
+    <string name="support">Support</string>
+    <string name="nic_name">Nic Name</string>
+    <string name="email">Email</string>
+    <string name="if_you_want_contact_us_you_can_call_us">if you want contact us you can call us:</string>
+    <string name="call_091">call: 091********</string>
+</resources>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <data>
+        <variable
+            name="model"
+            type="com.example.test1.apiConfig.models.comments.Result"
+            />
+    </data><androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="15dp"
+    android:padding="15dp"
+    android:layout_margin="7dp"
+    >
+
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_marginTop="7dp"
+        android:layout_marginStart="5dp"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        app:cardCornerRadius="100dp"
+        >
+        <ImageView
+            android:id="@+id/img_c"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+    </androidx.cardview.widget.CardView>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:text="@{model.username}"
+        />
+
+    <TextView
+        android:text="@{model.message}"
+        android:textColor="@color/black"
+        android:layout_marginTop="60dp"
+        android:layout_marginStart="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:layout_marginBottom="25dp"
+        android:fontFamily="@font/montr"
+        />
+
+</androidx.cardview.widget.CardView>
+</layout>

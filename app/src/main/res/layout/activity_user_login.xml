@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <data>
+        <variable
+            name="sts"
+            type="com.example.test1.viewmodels.ModelView_userstate" />
+    </data>
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".UserLogin">
+
+        <View
+            android:id="@+id/topview"
+            android:background="@drawable/pager_background"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/view_login_height"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:onClick="@{sts::signup}"
+            android:textSize="17sp"
+            android:text="@string/signup"
+            android:textColor="@color/black"
+            android:fontFamily="@font/montbold"
+            android:layout_width="@dimen/btn_signup_width"
+            android:layout_height="@dimen/btn_signup_height"
+            android:background="@drawable/btn_background_white"
+            app:layout_constraintBottom_toBottomOf="@+id/topview"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.059"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/topview"
+            app:layout_constraintVertical_bias="0.625" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:onClick="@{sts::login}"
+            android:textSize="17sp"
+            android:text="@string/login"
+            android:textColor="@color/black"
+            android:fontFamily="@font/montbold"
+            android:layout_width="@dimen/btn_login_width"
+            android:layout_height="@dimen/btn_login_heiht"
+            android:background="@drawable/btn_background_white"
+            app:layout_constraintBottom_toBottomOf="@+id/topview"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.87"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/topview"
+            app:layout_constraintVertical_bias="0.625" />
+
+        <FrameLayout
+            android:id="@+id/fr_lay_state"
+            android:layout_marginTop="@dimen/framlayout_user_login_margintop"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/topview" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
